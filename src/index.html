@@ -1,5 +1,44 @@
-<center>
-<img src="new.png" width="100%"/>
-<br/>
-<img src="ceu_codecamp.jpg"/>
-</center>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Image and Text Example</title>
+    <style>
+        /* Dark background for the whole page */
+         body {
+            background-color: #333;  /* Dark gray background */
+            color: white;             /* White text color */
+            margin: 0;                /* Remove default margin */
+            font-family: Arial, sans-serif;  /* Set font */
+        }
+
+        /* Container to center the image and text */
+        .center-container {
+            display: flex;
+            flex-direction: column;  /* Align items vertically */
+            justify-content: center; /* Center content vertically */
+            align-items: center;     /* Center content horizontally */
+            height: 100vh;           /* Full viewport height */
+            text-align: center;      /* Center text */
+        }
+
+
+        /* Reduce spacing between the lines of text */
+        p {
+            line-height: 0.25;  /* Adjust the line height (default is typically around 1.5) */
+        }
+    </style>
+</head>
+<body>
+    <div class="center-container">        
+        <img src="profile.jpg" alt="Centered Image" width="250" height="250">
+        <h1>YVAN KELLY A. DIATA</h1>
+        <p>ABOUT ME:.</p>
+        <p>• I ENJOY CODING</p>
+        <p>• I LIKE DISCOVERING NEW MUSIC</p>
+        <p>• I LOVE GAMING</p>
+        <p>• "I LIKE TURTLES"</p>
+    </div>
+</body>
+</html>
